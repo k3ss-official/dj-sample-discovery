@@ -1,0 +1,43 @@
+# DJ Sample Discovery - Python Backend Requirements
+# Optimized for Apple M4 Mini with 16GB RAM
+
+# Core server
+flask>=3.0.0
+flask-cors>=4.0.0
+flask-socketio>=5.3.0
+gevent>=23.9.0
+python-dotenv>=1.0.0
+
+# Audio downloading
+yt-dlp>=2024.12.6
+
+# Audio processing
+librosa>=0.10.1
+soundfile>=0.12.1
+numpy>=1.26.0
+scipy>=1.11.0
+audioread>=3.0.0
+
+# AI/ML for stem separation
+demucs>=4.0.1
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Music analysis
+essentia>=2.1b6.dev1184
+madmom>=0.16.1
+
+# Metadata APIs
+musicbrainzngs>=0.7.1
+python-discogs-client>=2.6
+spotipy>=2.23.0
+
+# Utilities
+pydub>=0.25.1
+mutagen>=1.47.0
+requests>=2.31.0
+tqdm>=4.66.0
+cachetools>=5.3.0
+
+# Optional: GPU acceleration for M4 (MPS)
+# torch will auto-detect MPS on Apple Silicon
